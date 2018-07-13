@@ -1,0 +1,5 @@
+<resources>
+    <string name="box_name">NotificationBox</string>
+    <string name="box_crash_title">Crash detail</string>
+    <string name="box_delete">Delete</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="box_black">#FF0F0F0F</color>
+    <color name="box_gray" >#FF939393</color>
+    <color name="box_crash_text">#FFF44336</color>
+</resources>

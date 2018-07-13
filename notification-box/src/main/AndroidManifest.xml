@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.classic.box">
+
+    <!-- 保存日志文件，需要SD卡读写权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application>
+        <activity android:name=".ui.NotificationBoxActivity"
+            android:theme="@style/NotificationBoxTheme"/>
+        <activity android:name=".ui.CrashActivity"
+            android:theme="@style/NotificationBoxTheme"/>
+        <provider
+            android:name=".NotificationBoxFileProvider"
+            android:authorities="${applicationId}.box.provider"
+            android:grantUriPermissions="true"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

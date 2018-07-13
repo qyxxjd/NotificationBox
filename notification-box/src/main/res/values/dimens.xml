@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="box_font_large">18sp</dimen>
+    <dimen name="box_font_normal">16sp</dimen>
+    <dimen name="box_font_small">14sp</dimen>
+
+    <dimen name="box_margin_large">16dp</dimen>
+    <dimen name="box_margin_normal">8dp</dimen>
+    <dimen name="box_margin_small">4dp</dimen>
+
+    <dimen name="box_radius_normal">4dp</dimen>
+    <dimen name="box_radius_small">2dp</dimen>
+</resources>

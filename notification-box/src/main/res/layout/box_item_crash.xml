@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/box_margin_normal">
+
+    <TextView
+        android:id="@+id/box_item_crash_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/box_black"
+        android:textSize="@dimen/box_font_normal"
+        tools:text="NullPointException"/>
+
+    <TextView
+        android:id="@+id/box_item_crash_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/box_gray"
+        tools:text="2018-06-25 10:16:56"/>
+
+    <TextView
+        android:id="@+id/box_item_crash_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/box_gray"
+        tools:text="NullPointerException is a RuntimeException. In Java, a special null value can be assigned to an object reference. NullPointerException is thrown when an application attempts to use an object reference that has the null value. "/>
+</FrameLayout>

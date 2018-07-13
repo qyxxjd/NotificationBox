@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- files-path:代表Environment.getFilesDir() -->
+    <!-- cache-path:代表Environment.getCacheDir() -->
+    <!-- external-path:代表Environment.getExternalStorageDirectory() -->
+    <external-path path="NotificationBox" name="crash"/>
+    <external-path path="NotificationBox" name="oom"/>
+</paths>
